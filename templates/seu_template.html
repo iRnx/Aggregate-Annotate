@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Livros e Autores</title>
+</head>
+<body>
+    <h1>Lista de Livros e Autores</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Livro</th>
+                <th>Autores</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            {% for livro, autores in livros_autores.items %}
+                <tr>
+                    <td>{{ livro }}</td>
+                    <td>{{ autores|join:", " }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

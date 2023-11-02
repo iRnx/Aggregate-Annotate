@@ -1,0 +1,5 @@
+1-) Criar um dicionario vazio chamado: "livros_autores"
+2-) fazer um for nos livros, pegando o livro e autor
+3-) verificar se o livro ja existe no dicionario "livros_autores"
+4-) No livros_autores[livro] vamos receber uma lista vazia, que é onde nossos autores serao armazenados.
+5-) No livros_autores[livro] vamos dar um append do autor
